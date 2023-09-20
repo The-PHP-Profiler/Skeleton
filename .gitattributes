@@ -10,3 +10,4 @@
 /.gitattributes export-ignore
 /.gitignore export-ignore
 /LICENCE.md export-ignore
+/README.md export-ignore
