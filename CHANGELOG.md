@@ -1,5 +1,9 @@
 # Release Notes for v0.x.x.alpha
 
+## [v0.1.2](https://github.com/The-FireHub-Project/Skeleton/compare/v0.1.0-alpha.1...v0.1.1-alpha.1) - (2023-10-12)
+
+- Added main FireHub class and Kernel ([d8379a7](https://github.com/The-FireHub-Project/Skeleton/commit/d8379a7))
+
 ## [v0.1.1](https://github.com/The-FireHub-Project/Skeleton/compare/v0.1.0-alpha.1...v0.1.1-alpha.1) - (2023-09-20)
 
 ### Added
