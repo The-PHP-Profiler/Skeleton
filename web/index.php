@@ -3,7 +3,7 @@
 /**
  * This file is part of FireHub Web Application Framework package
  *
- * This is main app landing file for all HTTP requests.
+ * This is the main app landing file for all HTTP requests.
  * @since 1.0.0
  *
  * @author Danijel Galić <danijel.galic@outlook.com>
@@ -20,3 +20,14 @@
 ini_set('display_errors', '1');
 ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
+
+use FireHub\Core\FireHub;
+use FireHub\Core\Initializers\Enums\Kernel;
+
+/**
+ * Let there be light
+ */
+require 'phar://'.__DIR__.'/../vendor/firehub/core/phar/core.phar/firehub.FireHub.php';
+require 'phar://'.__DIR__.'/../vendor/firehub/core/phar/core.phar/initializers/enums/firehub.Kernel.php';
+
+echo $firehub = FireHub::boot(Kernel::HTTP);
